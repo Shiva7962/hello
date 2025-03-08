@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #2b5876, #4e4376);
+    background: linear-gradient(135deg, #2b5876, #22222222);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -49,21 +49,14 @@ input {
     position: relative;
 }
 
-.toggle-password {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    font-size: 14px;
-}
+
 
 .options {
-    display: flex;
-    justify-content: space-between;
+    text-align: left;
     font-size: 14px;
     margin-bottom: 15px;
 }
+
 
 .options a {
     text-decoration: none;
@@ -94,4 +87,13 @@ button:hover {
 .signup-text a {
     color: #2b5876;
     text-decoration: none;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;  /* Adds space between input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
